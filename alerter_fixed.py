@@ -34,8 +34,6 @@ alert_in_celcius(650)
 
 
 total_alerts = alert_pass_count + alert_failure_count
-#print(total_alerts)
-#print(total_count)
 print(f'{total_alerts} total alerts.\n')
 print(f'{alert_failure_count} alerts failed. \n')
 print(f'{alert_pass_count} alerts Passed. \n')
