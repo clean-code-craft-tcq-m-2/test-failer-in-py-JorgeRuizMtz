@@ -5,7 +5,7 @@ def print_color_map():
     list = []
 
     for i, major in enumerate(major_colors):
-        for j, minor in enumerate(minor_colors):
+        for j, minor in enumerate(minor_colors, 1):
             interval = i * 5 + j
             list.append(interval)
             #assert list[0] == 0
